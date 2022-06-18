@@ -1,4 +1,5 @@
 "use strict";
+// i prefer function declarations over expressions because the are hoisted and available in all scopes
 let createEmployeeRecord = function (row) {
   return {
     firstName: row[0],
